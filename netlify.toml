@@ -1,0 +1,13 @@
+[build]
+  functions = "functions"
+  command = "npm install"
+
+[[redirects]]
+  from = "/submit"
+  to = "/.netlify/functions/submit"
+  status = 200
+
+[[redirects]]
+  from = "/pass"
+  to = "/.netlify/functions/pass"
+  status = 200
